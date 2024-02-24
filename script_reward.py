@@ -28,7 +28,7 @@ for i in letras:
     for i in range(arrows_down):
         pa.press('down')
 
-    time.sleep(0.3)
+    time.sleep(1)
     pa.press('enter')
 
     pa.click(x = barra_pesquisa.x, y = barra_pesquisa.y)
