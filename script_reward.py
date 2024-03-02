@@ -21,9 +21,11 @@ time.sleep(1)
 for i in letras:
     barra_pesquisa = pa.locateCenterOnScreen('imagens/barra_de_pesquisa.png', confidence= 0.8)
     pa.click(x = barra_pesquisa.x, y = barra_pesquisa.y)
-
-    pa.press(i)
     
+    time.sleep(0.5)
+    pa.press(i)
+    time.sleep(0.5)
+
     arrows_down = random.randint(1, 7)
     for i in range(arrows_down):
         pa.press('down')
