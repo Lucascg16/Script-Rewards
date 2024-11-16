@@ -32,7 +32,7 @@ for i in letras:
 
     pa.click(x = barra_pesquisa.x, y = barra_pesquisa.y)
 
-    apagar= pa.locateCenterOnScreen('imagens/apagar.png', confidence= 0.9)
+    apagar= pa.locateCenterOnScreen('imagens/apagar.png', confidence= 0.8)
     pa.click(x = apagar.x, y = apagar.y)
 
     pa.click(x = apagar.x + 150, y = apagar.y)
