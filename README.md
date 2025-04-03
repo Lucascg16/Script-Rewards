@@ -4,7 +4,9 @@
 pip install pyautogui <br>
 pip install pillow <br>
 pip install opencv-python <br>
+pip install pynput <br>
 
+### O script foi desenvolvido e testado no windows, mas tambem funciona no linux, a pre-configuração vai depender da distribuição utilizada.
 
 # O script foi desenvolvido desenvolvido em uma tela 1080p com dimensionamento em 100%, caso tente rodar ele em qualquer outra confirugação o mesmo não irá funcionar.<br>
 ## Configuração para um sistema que não utiliza 1080p/100%.
